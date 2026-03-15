@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main()
@@ -6,7 +7,7 @@ int main()
 
     printf("과제 2) 입력\n");
     printf("입력값: ");
-    scanf_s("%f", &input);
+    scanf("%f", &input);
 
     short fixed = (short)(input * 256);
 
